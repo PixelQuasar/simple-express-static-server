@@ -39,7 +39,7 @@ npm run start
 npm run dev # при сохранении файлов сосет изменения и перезапускает сервер
 ```
 
-## Развертка (чтобы хостить на своем сервере)
+## Развертка
 ### Докер
 ```shell
 docker build -t my-webpage . # билдим
@@ -47,7 +47,7 @@ docker build -t my-webpage . # билдим
 ```shell
 docker run -p 3000:3000 my-webpage # запускаем
 ```
-### pm2 
+### pm2 (легковесней докера)
 ```shell
 npm run pm2:start # поднять процесс
 ```
